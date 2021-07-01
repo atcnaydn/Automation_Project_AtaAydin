@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3604242200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"white\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundColorStepDef.button_exists(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "1 User should be able to change background color to white",
+        "description": "",
+        "id": "validate-white-functionality;1-user-should-be-able-to-change-background-color-to-white",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108035600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the white button",
+            "match": {
+              "location": "BackgroundColorStepDef.user_clicks_on_the_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3478201700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Background will change to \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 27
+                }
+              ],
+              "location": "BackgroundColorStepDef.background_will_change_to_sky_blue(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate White Functionality",
+    "description": "",
+    "id": "validate-white-functionality",
+    "keyword": "Feature",
+    "uri": "features/White.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@White"
+      }
+    ]
+  }
+]
